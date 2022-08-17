@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#grilla {
+    background-image: url("../images/fondo-banner-humo-purpura-estetico_53876-129044.png");
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.caja {
+    grid-column: 1/4;
+}
+
+header {
+    border-style: solid;
+    margin: 0%;
+    background-color: #e6c9f7;
+    width: 100%;
+}
+
+header img {
+    margin: 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    font-weight: 600;
+    font-family: 'Indie Flower';
+    text-align: center;
+    font-size: 35px;
+    padding: 25px;
+}
+
+nav {
+    background-color: #e6c9f7;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    padding: auto;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    margin: 4px;
+    font-size: 20px;
+    font-family: 'Indie Flower';
+
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.caja2 {
+    grid-column: 1/4;
+}
+
+h2 {
+    margin: 25px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.caja3 {
+    grid-column: 1/4;
+}
+
+p {
+    margin: 8px;
+}
+
+.caja4 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.foto {
+    width: 250px;
+    margin: 10px;
+}
+
+.caja5 {
+    grid-column: 1/4;
+}
+
+.caja6 {
+    grid-column: 1/4;
+}
+
+footer {
+    background-image: linear-gradient(50deg, rgba(182,80,242,1) 6%, rgba(230,201,247,1) 41%);;
+    padding: 5px;
+    border-style: solid;
+}
+
+footer p {
+    color: #000000;
+    font-family: "Indie Flower";
+    text-align: center;
+}
+
+.trata {
+    margin: 10px;
+}
+
+h3 {
+    margin: 25px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.ubi {
+    height: 250px;
+    width: 98%;
+    margin: 15PX;
+}
+
+.caja7 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.caja8 {
+    grid-column: 1/4;
+
+}
+
+.caja9 {
+    grid-column: 1/4;
+}
+
+.caja10 {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.caja11 {
+    grid-column: 1/4;
+    text-align: center;
+    margin: 10px;
+}
+iframe{
+    width:460px; 
+    height:315px;
+}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:500px) {
+    header img {
+        margin: 10px;
+        float: left;
+        width: 80px;
+        height: 80px;
+        }
+    
+    header h1 {
+        font-weight: 600;
+        font-family: 'Indie Flower';
+        text-align: center;
+        font-size: 30px;
+        padding: 25px;
+        }
+    nav {
+        background-color: #e6c9f7;
+        display:inline;
+        justify-content:center
+        }
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 600;
+        margin: 4px;
+        font-size: 15px;
+        font-family: 'Indie Flower';
+        }
+
+        .caja11 {
+            grid-column: 1/4;
+            text-align: center;
+            margin: 2px;
+        }
+        iframe{
+            width:240px; 
+            height:95px;
+        }
+        
+}    
